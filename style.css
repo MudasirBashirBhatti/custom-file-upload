@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: rgba(0, 4, 8, 0.137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.parent{
+    width: 30%;
+    position: relative;
+}
+button{
+    display: flex;
+    width: 100%;
+    padding: 4rem 0;
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed rgba(0, 0, 0, 0.274);
+    margin-bottom: 1rem;
+    background-color: white;
+    cursor: pointer;
+}
+.myimage{
+    width: 10%;
+    height: auto;
+}
+.parent input[type=file]{
+    display: none;
+
+}
